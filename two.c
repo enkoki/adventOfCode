@@ -9,9 +9,8 @@ int main()
     int count = 0;
     int len = strlen(string);
     for(int i = 0; i<len;i++){
-        if(i+1 == len){
+        if(i+1 == len)
             break;
-        }
         if(string[i] == string[i+1])
             continue;
         count++;   
