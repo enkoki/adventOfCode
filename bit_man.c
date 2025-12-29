@@ -1,4 +1,11 @@
 // Learning Bit Manipulation
+// Key Notes
+/*
+x = 3
+x = x << k - move all the bits by k
+x |= (1 << k) - setting a bit at k
+x &= ~(1 << k) - clear bit k
+*/
 #include <stdint.h>
 #include <stdio.h>
 void printingBinary(int n){
